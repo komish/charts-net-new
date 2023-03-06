@@ -72,6 +72,34 @@ entries:
     urls:
     - https://github.com/openshift-helm-charts/charts/releases/download/castai-castai-agent-0.52.0/castai-agent-0.52.0.tgz
     version: 0.52.0
+  concerthall-gosnappass:
+  - annotations:
+      charts.openshift.io/digest: sha256:f843a2106310cbd46f7aa6027b075781fda6aa827d85e483d4fe2cf3bdeab52a
+      charts.openshift.io/lastCertifiedTimestamp: '2023-03-06T11:03:36.055979-06:00'
+      charts.openshift.io/provider: concerthall
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2023-03-06T17:39:30.521555+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.3'
+      charts.openshift.io/testedOpenShiftVersion: '4.12'
+    apiVersion: v2
+    appVersion: 0.0.1
+    description: Share Passwords Securely
+    digest: ee3ee7a055d37866a25157987dba2cd5c399f6e8e72541125d949d3c9c06bb03
+    home: https://github.com/concerthall/gosnappass
+    icon: https://raw.githubusercontent.com/concerthall/gosnappass/main/assets/gosnappass.svg
+    keywords:
+    - secrets
+    - passwords
+    - snappass
+    kubeVersion: '>= 1.15.0'
+    name: gosnappass
+    sources:
+    - https://github.com/concerthall/gosnappass
+    - https://github.com/concerthall/gosnappass-helm
+    type: application
+    urls:
+    - https://github.com/komish/charts-net-new/releases/download/concerthall-gosnappass-0.0.1/gosnappass-0.0.1.tgz
+    version: 0.0.1
   dh2i-dxemssql:
   - annotations:
       charts.openshift.io/digest: sha256:bba38b72bd647ead19350b86ec60253d203d9465d75efd4c25d210110b77d789
@@ -4566,4 +4594,4 @@ entries:
     urls:
     - https://charts.yugabyte.com/yugaware-openshift-2.14.4.tgz
     version: 2.14.4
-generated: '2023-03-03T05:36:53.305648+00:00'
+generated: '2023-03-06T17:39:30.521555+00:00'
