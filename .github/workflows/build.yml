@@ -309,7 +309,7 @@ jobs:
         if: ${{ steps.check_report.conclusion == 'success' }}
         uses: hmarr/auto-approve-action@v2
         with:
-          github-token: ${{ secrets.BOT_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Merge PR
         id: merge_pr
